@@ -9,7 +9,7 @@ server {
         listen [::]:80;
         server_name  hello.ihateiceforfree.com;
 
-        root /root/static/hello;
+        root /root/docker-basic-website/static/hello;
         index index.html index.htm index.nginx-debian.html;
 
         location / {
