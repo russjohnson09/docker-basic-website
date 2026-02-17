@@ -36,6 +36,18 @@ lrwxrwxrwx 1 root root   34 Feb 17 05:01 default -> /etc/nginx/sites-available/d
 
 
  ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/
- 
+
 
 ## letsencrypt
+
+
+apt install certbot python3-certbot-nginx
+
+
+certbot --nginx -d test.ihateiceforfree.com
+
+
+Successfully deployed certificate for test.ihateiceforfree.com to /etc/nginx/sites-enabled/test.ihateiceforfree.com
+Congratulations! You have successfully enabled HTTPS on https://test.ihateiceforfree.com
+
+
