@@ -18,3 +18,24 @@ https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-
 
 apt install nginx -y
 nginx -v
+dpkg -l | grep nginx
+
+
+curl -4 icanhazip.com
+
+curl http://143.198.15.145
+
+
+http://test.ihateiceforfree.com/
+
+ls /etc/nginx/sites-enabled/ -al
+total 8
+drwxr-xr-x 2 root root 4096 Feb 17 05:01 .
+drwxr-xr-x 8 root root 4096 Feb 17 05:07 ..
+lrwxrwxrwx 1 root root   34 Feb 17 05:01 default -> /etc/nginx/sites-available/default
+
+
+ ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/
+ 
+
+## letsencrypt
