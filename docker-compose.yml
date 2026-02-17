@@ -17,6 +17,9 @@ services:
        - db_root_password
        - db_password
 
+
+# In wp-config.php I made the following modifications:
+# Do I need a full qualified domain defined here?
    wordpress:
      depends_on:
        - db
