@@ -30,7 +30,6 @@ services:
      secrets:
        - db_password
 
-
 secrets:
    db_password:
      file: db_password.txt
